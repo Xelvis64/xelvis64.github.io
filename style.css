@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+.rectangle1{
+    position: absolute;
+    width: 1519px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #060606;
+}
+.rectangle1 img{
+    width: 205px;
+    cursor: pointer;
+}
+.rectangle1 ul li{
+    left: 940px;
+    top: -53px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.rectangle1 ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #F1592A;
+    height: 48px;
+
+    width: 85px;
+    height: 48px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.rectangle1 ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background:#F1592A;
+    bottom: -6px;
+}
+.rectangle1 ul li a:hover{
+    color: rgba(46, 49, 146, 1);
+}
+
+.main {
+    display: table-row;
+    height: 100%;
+    background: #bdc3c7;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 0;
+}
+.rectangle2{
+    position: absolute;
+    width: 1519px;
+    height: 100px;
+    background: #060606;
+}
+.rectangle2 img{
+    position: absolute;
+    width: 100px;
+    height: 101px;
+    left: 30px;
+    top: 0;
+}
+.rectangle2 ul li{
+    left: 600px;
+    top: 35px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.rectangle2 ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #F1592A;
+    height: 48px;
+
+    width: 172px;
+    height: 21px;
+    left: 1205px;
+    top: 993px;
+
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+}
+.rectangle2 ul li a:hover{
+    color: rgba(46, 49, 146, 1);
+}
+.rectangle2 ul li a i{
+    font-size: 2rem;
+    padding-left: -5px;
+}
