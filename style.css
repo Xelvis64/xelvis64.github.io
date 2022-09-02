@@ -3,21 +3,30 @@
     padding: 0;
     font-family: sans-serif;
 }
-html {
-    height: 100%;
+html, body {
+   height:100%;
 }
-body {
-    display: table;
-    width: 100%;
-    height: 100%;
+.container {
+    position: relative;
+    min-height:100%;
 }
 .header{
-    position: absolute;
-    width: 1440px;
     height: 100px;
-    left: 0px;
-    top: 0px;
+    width: 100%;
 }
+.main {
+    height: 824px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom:60px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    position:sticky;
+}
+
 .rectangle1{
     position: absolute;
     width: 1519px;
@@ -65,19 +74,44 @@ body {
     color: rgba(46, 49, 146, 1);
 }
 
-.main {
-    display: table-row;
-    height: 100%;
-    background: #bdc3c7;
-    text-align: center;
+.main img{
+    position: absolute;
+    width: 1519px;
+    height: 397px;
+    left: 0px;
+    top: 100px;
+}
+.rectangle{
+    position: absolute;
+    width: 1519px;
+    height: 397px;
+    left: 0px;
+    top: 100px;
+    background: rgba(65, 70, 214, 0.46);
+}
+.slogan{
+    position: absolute;
+    left: 620px;
+    top: 174px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFBFB;
+}
+.news{
+    position: absolute;
+    width: 1519px;
+    height: 545px;
+    left: 0px;
+    top: 497px;
+    background: rgba(29, 30, 71, 0.46);
 }
 
-.footer {
-    text-align: center;
-    padding: 0;
-}
+
 .rectangle2{
-    position: absolute;
     width: 1519px;
     height: 100px;
     background: #060606;
@@ -121,6 +155,7 @@ body {
     font-size: 2rem;
     padding-left: -5px;
 }
+
 .backtop{
     font-size: 1.5rem;
     width: 30px;
