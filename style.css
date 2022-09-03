@@ -55,6 +55,19 @@ html, body {
     margin: 0 20px;
     position: relative;
 }
+.rectangle1 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    left: 0;
+    position: absolute;
+    background:#F1592A;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.rectangle1 ul li.active::after, .rectangle1 ul li:hover::after{
+    width: 100%;
+}
 .rectangle1 ul li a{
     text-decoration: none;
     font-size: 2rem;
@@ -69,18 +82,10 @@ html, body {
     font-size: 32px;
     line-height: 38px;
 }
-.rectangle1 ul li::after{
-    content: '';
-    height: 3px;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    background:#F1592A;
-    bottom: -6px;
-}
-.rectangle1 ul li a:hover{
+.rectangle1 ul li.active a, .rectangle1 ul li a:hover{
     color: rgba(46, 49, 146, 1);
 }
+
 
 .main img{
     position: absolute;

@@ -1,0 +1,75 @@
+<html>
+
+    <head>
+        <title>Xelvis64</title>
+        <link rel="scriptsheet" href="script.js">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../fontawesome-free-6.2.0/css/all.min.css">
+        <link rel="icon" href="../Img-Home/favicon.ico" type="Img/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="rectangle1">
+                    <a href="#"><img src="../Img-Home/logo.jpg"></a>
+                    <ul>
+                        <li><a href="file:///C:/Work/GitHub/xelvis64product.github.io/index.html">Home</a></li>
+                        <li  class="active"><a href="file:///C:/Work/GitHub/xelvis64product.github.io/Blog/index.html">Blog</a></li>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>    
+            </div>
+    
+            <div class="main">
+                
+            </div>
+    
+            <div class="footer">
+                <div class="rectangle2">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/xelvis64.production" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/xelvis64product" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">x64production@gmail.com</a></li>
+                    </ul> 
+                    <img src="../Img-Home/Logo.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="backtop">
+                <i class="fa-solid fa-circle-chevron-up"></i>
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if ($(this).scrollTop()) {
+                    $('.backtop').fadeIn();
+                } 
+                else 
+                {
+                    $('.backtop').fadeOut();
+                }
+            });
+            $(".backtop").click(function(){
+                $('html, body').animate({scrollTop: 0}, 800);
+            });
+        });
+    </script>
+
+</html>
+
