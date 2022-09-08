@@ -1,0 +1,129 @@
+<html>
+
+    <head>
+        <title>Xelvis64</title>
+        <link rel="scriptsheet" href="script.js">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../fontawesome-free-6.2.0/css/all.min.css">
+        <link rel="icon" href="../Img-Home/favicon.ico" type="Img/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="rectangle1">
+                    <a href="#"><img src="../Img-Home/logo.jpg"></a>
+                    <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li class="active"><a href="../Blog/index.html">Blog</a></li>
+                      <li><a href="../Project/index.html">Project</a></li>
+                      <li><a href="../About us/index.html">About us</a></li>
+                    </ul>
+                </div>    
+            </div>
+    
+            <div class="main">
+                <ul class="rectangle">
+                    <li  class="active">Blogs</li>
+                    <li>Portfolio</li>
+                    <li>Q&A</li>
+                    <li>Information</li>
+                </ul>
+                <li>
+                    <div class="more-info">
+                        <a href="" class="post-title">
+                            Project Future Tech: Application for AWS Build on Vietnam 2022 event: Solution for ZaloPay's Challenge
+                        </a>
+                        <p class="post-excerpt">
+                            <div class="Problems">
+                                <h1>1) Problems</h1>
+                                <h2>
+                                    The challenge: As adoption of cashless transactions in Vietnam continues to grow, please propose a solution & develop a feature for a mobile wallet that enables its users to pay for parking more conveniently.
+                                    <br><br>When we recieved the challenge, we recognized that main key the judges wanted to give the contestants is "MORE CONVENIENTLY". So that, we decided to choose "NFC technology", which is the best way(I think) to make a more conveniently transaction in retail sectors and some companies as Samsung or Apple are developing that technology.
+                                    <br><br>Bunch of information was found give me some questions:
+                                    <br><br>
+                                    <div>• First is "Why this tech is not popular in specific: Vietnam".</div>
+                                    <div>• Second is "Why don't we inheritage it cuz Samsung have Samsung Pay, Apple have Apple Pay which are strongly being developed in non-cash payment".</div>
+                                    <br>Then we believed that this tech must not be wasted!
+                                </h2>
+                            </div>
+                            <div class="Solution">
+                                <h1>2) Solution</h1>
+                                <h2>
+                                    We split this challenge into 3 parts: Basic architecture, backend, frontend.
+                                    <br><br>
+                                    <div>• Basic architecture: We decided to build a plan, which services would be used and the effect. We had create DFD first to develop AWS architecture to visualize not only backend but also frontend.</div>
+                                    <br><br>
+                                    <img src="https://i.imgur.com/BNDGoKg.png">
+                                    <img src="https://i.imgur.com/MoUUQZK.png">
+                                    <img src="https://i.imgur.com/zf6RtN8.png">
+                                    <br><br>
+                                    <div>• Backend: After we had Basic architecture, we can easily find the way out to figure the construction of the backend which AWS services in simple way: AWS lambda, S3 bucket, DynamoDB, Amazon Rekognition.</div>
+                                    <br><br>
+                                    <div>• Frontend: We had build the app which can read NFC signal.</div>
+                                    <br><br>
+                                    <img src="https://i.imgur.com/xPVfW4G.jpg">
+                                </h2>
+                            </div>
+                            <div class="Result">
+                                <h1>3) Result</h1>
+                                <h2>
+                                    With our solution, we were luckily chosen to be qualified to the finale of AWS Build on Vietnam and the solution was chosen to be the Best Technicality.
+                                </h2>
+                            </div>
+                        </p>
+                        <span class="post-sign">
+                            <span>MasterYuri</span>
+                            <span>04/09/2022</span>
+                          </span>
+                    </div>
+                </li>
+            </div>
+    
+            <div class="footer">
+                <div class="rectangle2">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/xelvis64.production" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/xelvis64product" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">x64production@gmail.com</a></li>
+                    </ul> 
+                    <img src="../Img-Home/Logo.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="backtop">
+                <i class="fa-solid fa-circle-chevron-up"></i>
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if ($(this).scrollTop()) {
+                    $('.backtop').fadeIn();
+                } 
+                else 
+                {
+                    $('.backtop').fadeOut();
+                }
+            });
+            $(".backtop").click(function(){
+                $('html, body').animate({scrollTop: 0}, 800);
+            });
+        });
+    </script>
+
+</html>
+

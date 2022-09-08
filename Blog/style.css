@@ -264,7 +264,7 @@ ul.list-post li .post-excerpt{
 }
 
 .backtop{
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 30px;
     height: 30px;   
     color: #F1592A;
@@ -272,7 +272,7 @@ ul.list-post li .post-excerpt{
     justify-content: center;
     border-radius: 50%;
     position: fixed;
-    bottom: 40pX;
+    bottom: 15%;
     right: 20px;
     cursor: pointer;
 }
