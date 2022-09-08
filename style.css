@@ -107,7 +107,7 @@ html, body {
     left: 620px;
     top: 174px;
 
-    font-family: 'DM Sans';
+    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -291,7 +291,7 @@ ul.list-post2 li .post-excerpt2{
 }
 .post-sign{
     position: absolute;
-    width: 1519px;
+    width: 200px;
     top: 100px;
 
     font-family: 'Roboto';
@@ -352,7 +352,7 @@ ul.list-post2 li .post-excerpt2{
 }
 
 .backtop{
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 30px;
     height: 30px;   
     color: #F1592A;
@@ -360,7 +360,7 @@ ul.list-post2 li .post-excerpt2{
     justify-content: center;
     border-radius: 50%;
     position: fixed;
-    bottom: 40pX;
+    bottom: 15%;
     right: 20px;
     cursor: pointer;
 }
