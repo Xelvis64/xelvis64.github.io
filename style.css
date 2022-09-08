@@ -289,6 +289,22 @@ ul.list-post2 li .post-excerpt2{
     line-height: 24px;
     color: #292929;
 }
+.post-sign{
+    position: absolute;
+    width: 1519px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #757575;
+}
+.post-sign span{
+    margin-right: 32px;
+}
 
 .rectangle2{
     width: 1519px;

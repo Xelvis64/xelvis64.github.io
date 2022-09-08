@@ -23,7 +23,7 @@ html, body {
     width: 100%;
 }
 .main {
-    height: 764px;
+    height: 110%;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -84,6 +84,138 @@ html, body {
 }
 .rectangle1 ul li.active a, .rectangle1 ul li a:hover{
     color: rgba(46, 49, 146, 1);
+}
+
+.blogsList{
+    position: absolute;
+    width: 1519px;
+    top: 108px;
+}
+.wapper{
+    position: absolute;
+    left: 57px;
+    max-width: 634px;
+    max-height: 307px;
+}
+.Blogs{
+    position: absolute;
+    width: 128px;
+    height: 66px;
+    left: -15px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #2E3192;
+}
+.Blogs::after{
+    content: '';
+    height: 2px;
+    width: 1264px;
+    left: 0;
+    position: absolute;
+    background:#2E3192;;
+    bottom: -6px;
+    transition: 0.5s;
+}
+ul.list-post li{
+    position: relative;
+    top: 94px;
+    left: 120px;
+    margin-bottom: 51px;
+    display: flex;
+    text-align: left;
+}
+ul.list-post li .post-thumb{
+    flex: 0 0 30%;
+    padding: 15px;
+}
+ul.list-post li .post-thumb img{
+    position: relative;
+    width: 140px;
+    height: 139px;
+    left: -110px;
+    top: -10px;
+}
+ul.list-post li .post-title{
+    position: absolute;
+    width: 739px;
+    height: 25px;
+    left: 73px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #191919;
+    display: block;
+    transition: color 0.3s;
+}
+ul.list-post li:hover .post-title{
+    color: #F1592A;
+} 
+ul.list-post li .post-excerpt{
+    position: absolute;
+    width: 644px;
+    height: 76px;
+    left: 73px;
+    top: 40px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+.wapper2{
+    position: absolute;
+    top: 15px;
+    max-width: 634px;
+    max-height: 307px;
+}
+.separate2{
+    content: "";
+    display: block;
+    position: absolute;
+    background: #F1592A;
+    border-radius: 6px;
+    width: 5px;
+    height: 30px;
+    left: 27px;
+    top: 7px;
+}
+.post-sign{
+    position: absolute;
+    width: 300px;
+    left: 73px;
+    top: 116px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+}
+.post-sign span{
+    margin-right: 32px;
+}
+.post-sign::after{
+    content: '';
+    height: 1px;
+    width: 226px;
+    left: 336;
+    top: 58px;
+    position: absolute;
+    background:#2E3192;;
+    bottom: -6px;
+    transition: 0.5s;
 }
 
 .rectangle2{
