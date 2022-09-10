@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+html, body {
+   height:100%;
+   line-height: 1.2;
+}
+.container {
+    position: relative;
+    min-height:100%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+}
+.main {
+    height: 764px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom:60px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    position:sticky;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 1519px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #060606;
+}
+.rectangle1 img{
+    width: 205px;
+    cursor: pointer;
+}
+.rectangle1 ul li{
+    left: 940px;
+    top: -53px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.rectangle1 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    left: 0;
+    position: absolute;
+    background:#F1592A;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.rectangle1 ul li.active::after, .rectangle1 ul li:hover::after{
+    width: 100%;
+}
+.rectangle1 ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #F1592A;
+    height: 48px;
+
+    width: 85px;
+    height: 48px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.rectangle1 ul li.active a, .rectangle1 ul li a:hover{
+    color: rgba(46, 49, 146, 1);
+}
+
+.rectangle2{
+    width: 1519px;
+    height: 100px;
+    background: #060606;
+}
+.rectangle2 img{
+    position: absolute;
+    width: 100px;
+    height: 101px;
+    left: 30px;
+    top: 0;
+}
+.rectangle2 ul li{
+    left: 600px;
+    top: 35px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.rectangle2 ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #F1592A;
+    height: 48px;
+
+    width: 172px;
+    height: 21px;
+    left: 1205px;
+    top: 993px;
+
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+}
+.rectangle2 ul li a:hover{
+    color: rgba(46, 49, 146, 1);
+}
+.rectangle2 ul li a i{
+    font-size: 2rem;
+    padding-left: -5px;
+}
+
+.backtop{
+    font-size: 2rem;
+    width: 30px;
+    height: 30px;   
+    color: #F1592A;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15%;
+    right: 20px;
+    cursor: pointer;
+}
