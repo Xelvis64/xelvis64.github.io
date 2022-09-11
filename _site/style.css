@@ -23,7 +23,7 @@ html, body {
     width: 100%;
 }
 .main {
-    height: 764px;
+    height: 110%;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -33,6 +33,7 @@ html, body {
     width: 100%;
     text-align: center;
     position:sticky;
+    font-weight: bold;
 }
 
 .rectangle1{
@@ -86,7 +87,7 @@ html, body {
     color: rgba(46, 49, 146, 1);
 }
 
-
+/*Home*/
 .main img{
     position: absolute;
     width: 1519px;
@@ -119,14 +120,14 @@ html, body {
     display: block;
     position: absolute;
     border-left: 1px solid #000000;
-    height: 319px;
+    height: 369px;
     left: 758px;
-    top: 506px;
+    top: 546px;
 }
 .news{
     position: absolute;
     width: 1519px;
-    top: 497px;
+    top: 547px;
 }
 .wapper{
     position: absolute;
@@ -304,6 +305,116 @@ ul.list-post2 li .post-excerpt2{
 }
 .post-sign span{
     margin-right: 32px;
+}
+
+/*Content list*/
+.list{
+    position: absolute;
+    width: 1519px;
+    top: 108px;
+}
+.contents{
+    position: absolute;
+    width: 128px;
+    height: 66px;
+    left: -15px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #2E3192;
+}
+.contents::after{
+    content: '';
+    height: 2px;
+    width: 1264px;
+    left: 0;
+    position: absolute;
+    background:#2E3192;;
+    bottom: -6px;
+    transition: 0.5s;
+}
+ul.list-posts li{
+    position: relative;
+    top: 94px;
+    left: 120px;
+    margin-bottom: 51px;
+    display: flex;
+    text-align: left;
+}
+ul.list-posts li .post-thumb{
+    flex: 0 0 30%;
+    padding: 15px;
+}
+ul.list-posts li .post-thumb img{
+    position: relative;
+    width: 140px;
+    height: 139px;
+    left: -110px;
+    top: -10px;
+}
+ul.list-posts li .post-title{
+    position: absolute;
+    width: 739px;
+    height: 25px;
+    left: 73px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #191919;
+    display: block;
+    transition: color 0.3s;
+}
+ul.list-posts li:hover .post-title{
+    color: #F1592A;
+} 
+ul.list-posts li .post-excerpt{
+    position: absolute;
+    width: 644px;
+    height: 76px;
+    left: 73px;
+    top: 40px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+.post-sign-prog{
+    position: absolute;
+    width: 300px;
+    left: 73px;
+    top: 116px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+}
+.post-sign-prog span{
+    margin-right: 32px;
+}
+.post-sign-prog::after{
+    content: '';
+    height: 1px;
+    width: 226px;
+    left: 336;
+    top: 58px;
+    position: absolute;
+    background:#2E3192;;
+    bottom: -6px;
+    transition: 0.5s;
 }
 
 .rectangle2{
