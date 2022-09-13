@@ -90,7 +90,11 @@ html, body {
 /*Home*/
 .main img{
     position: absolute;
+<<<<<<< Updated upstream
     width: 1519px;
+=======
+    width: 100%;
+>>>>>>> Stashed changes
     height: 397px;
     left: 0px;
     top: 100px;
@@ -101,6 +105,7 @@ html, body {
     height: 397px;
     left: 0px;
     top: 100px;
+<<<<<<< Updated upstream
     background: rgba(65, 70, 214, 0.46);
 }
 .slogan{
@@ -114,6 +119,16 @@ html, body {
     font-size: 48px;
     line-height: 62px;
     color: #FFFBFB;
+=======
+    background: rgba(99, 180, 255, 0.55);
+}
+.slogan img{
+    position: absolute;
+    width: 85%;
+    height: 84px;
+    left: 100px;
+    top: 100px;
+>>>>>>> Stashed changes
 }
 .separate{
     content: "";
