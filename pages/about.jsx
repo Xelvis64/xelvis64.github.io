@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 
-const about = () => {
+const About = () => {
   return (
     <div>
       <Hero
@@ -16,4 +16,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
