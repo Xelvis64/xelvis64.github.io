@@ -1,10 +1,10 @@
 import "../styles/globals.css";
-import Layout from "../components/layout";
+import layout from "../components/layout";
 
 export default function MyApp({Component, pageProps}) {
   return (
-    <Layout>
+    <layout>
       <Component {...pageProps} />
-    </Layout>
+    </layout>
   );
 }
