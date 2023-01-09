@@ -3,7 +3,7 @@ layout: post
 title:  "CEO LÊ Huy Hùng ôm nợ 1 tỷ đồng, lần cuối xuất hiện ở Bình Dương"
 author: sal
 categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+image: assets/images/hung.jpg
 featured: true
 hidden: true
 ---
