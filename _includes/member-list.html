@@ -1,0 +1,32 @@
+{% for member in site.data.members %}
+<div class="row post-top-meta p-4 rounded border">
+  <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+    {% if member.avatar %}
+    <img
+      class="author-thumb"
+      src="{{site.baseurl}}/{{ member.avatar }}"
+      alt="{{ author.display_name }}"
+    />
+    {% else %}
+    <img
+      class="author-thumb"
+      src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
+      alt="{{ member.display_name }}"
+    />
+    {% endif %}
+  </div>
+  <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left container">
+    <div class="row d-flex justify-content-between font-weight-bold" style="font-size: 20px">
+      <a class="link-dark mr-2" href="{{ site.baseurl }}/{{ member.post-url }}"
+        >{{ member.display_name }} ( {{ member.role }} )</a
+      >
+      <div>{{ member.position}}</div>
+    </div>
+    <div class="row">
+      <span class="author-description">{{ member.title }}</span>
+    </div>
+  </div>
+</div>
+
+<!-- Post Title -->
+{% endfor %}

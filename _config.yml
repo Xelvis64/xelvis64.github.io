@@ -1,12 +1,12 @@
 # Site
 name: "Xelvis64"
 title: "Xelvis64"
-description: "A website from Xelvis64"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+description: "A website of Xelvis64"
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
 baseurl: /xelvis64product.github.io
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+google_analytics: "UA-46278016-1"
+disqus: "demowebsite"
 include: ["_pages"]
 permalink: /:title/
 url: http://xelvis64.tech
@@ -18,19 +18,19 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
+    category: "/category/:name/"
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 

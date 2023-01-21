@@ -16,7 +16,7 @@ post_class: post-template
         </div>
 
         <!-- Post -->
-        {% assign author = site.authors[page.author] %}
+        {% assign author = page.author %}
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
@@ -32,7 +32,7 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <a target="_blank" class="link-dark mr-2" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.github }}" class="btn follow">Follow</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>
@@ -77,13 +77,6 @@ post_class: post-template
                 {{content}}
             </div>
 
-            <!-- Rating -->
-            {% if page.rating %}
-            <div class="rating mb-4 d-flex align-items-center">
-                <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
-            </div>
-            {% endif %}
-
             <!-- Post Date -->
             <p>
             <small>
@@ -121,6 +114,7 @@ post_class: post-template
             <!-- End Tags -->
 
             <!-- Prev/Next -->
+
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
