@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.2d378656.css",
+    "main.js": "/react-gh-pages/static/js/main.aa1e3583.js",
+    "static/js/574.5b27f1ee.chunk.js": "/react-gh-pages/static/js/574.5b27f1ee.chunk.js",
+    "static/js/787.6606bfd5.chunk.js": "/react-gh-pages/static/js/787.6606bfd5.chunk.js",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/what-is-saas-software-as-a-service-explained.md": "/react-gh-pages/static/media/what-is-saas-software-as-a-service-explained.2bc5ce115b66932a5161.md",
+    "main.2d378656.css.map": "/react-gh-pages/static/css/main.2d378656.css.map",
+    "main.aa1e3583.js.map": "/react-gh-pages/static/js/main.aa1e3583.js.map",
+    "787.6606bfd5.chunk.js.map": "/react-gh-pages/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d378656.css",
+    "static/js/main.aa1e3583.js"
+  ]
+}

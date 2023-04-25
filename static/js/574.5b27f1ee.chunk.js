@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklanding_page=self.webpackChunklanding_page||[]).push([[574],{5964:function(a,e,s){a.exports=s.p+"static/media/what-is-saas-software-as-a-service-explained.2bc5ce115b66932a5161.md"}}]);
