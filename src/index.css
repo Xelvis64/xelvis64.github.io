@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif !important;
+  cursor: url("../public/images/cursor.png"), auto !important;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+.Typewriter__wrapper {
+  font-size: 24px;
+  color: #8b5cf6 !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 24px;
+  color: #8b5cf6 !important;
+}
+@media (min-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 36px;
+    color: #8b5cf6 !important;
+    font-weight: 600 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 36px;
+    color: #8b5cf6 !important;
+  }
+}
